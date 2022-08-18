@@ -1,0 +1,160 @@
+@media(max-width:1170px) {
+    .container{
+        width: 360px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .main_logo{
+        width: 160px;
+        height: 50px;
+    }
+    .header_list{
+        width: 325px;
+        flex-wrap: wrap;
+    }
+    .example{
+        font-size: 10px;
+    }
+    .example::before{
+        display: none;
+    }
+    .active, .weding, .business, .contact {
+        margin-top: 25px;
+    }
+    .header_story,
+    .header_story_inner{
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .header_story_img,
+    .header_story_img_inner{
+        width: 350px;
+        height: 450px;
+    }
+    .story_card{
+        margin: 0 auto 20px;
+    }
+    .story_title,
+    .story_title_inner{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 0;
+    }
+    .footer_box{
+       padding: 0 0 5px 0; 
+    }
+    .footer_list{
+        display: none;
+    }
+    .footer_contact{
+        width: 300px;
+        margin: 0 auto; 
+    }
+    .portfolio_list{
+        display: none;
+    }
+    .portfolio_wrapper{
+        padding-top: 25px;
+    }
+    .story_portfolio_title{
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .business_info{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .business_card{
+        margin-bottom: 25px;
+    }
+    .business_img{
+        width: 360px;
+        height: 450px;
+    }
+    .business_card:last-child{
+        margin-left: 0;
+    }
+    .business_card:first-child{
+        margin-right: 0;
+    }
+    .business_title{
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .contact_box{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        height: 1000px;
+    }
+    .contact_title{
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .contact_main_info, .contact_inner_info{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .contact_inner_info{
+        margin-bottom: 50px;
+    }
+    .my_media{
+        margin-bottom: 30px;
+    }
+    .my_photo{
+        width: 360px;
+        height: 360px;
+    }
+    .story_work_card{
+        padding-top: 25px;
+    }
+    .portfolio_bg_card{
+        height: 220px;
+    }
+    .portfolio_title_card{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .slider_wrapper{
+        display: none;
+    }
+    .story_box_gallery{
+        display: block;
+      }
+    .portfolio_card_img,
+    .portfolio_last_two{
+        width: 360px;
+        height: 505px;
+        margin-bottom: 10px;
+    }
+    .portfolio_img_card{
+        width: 360px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio_img_card:last-child{
+        margin-bottom: 30px;
+    }
+    .portfolio_last_two:last-child{
+        position: static;
+    }
+    .lovestory_wrapper{
+        margin-top: 50px;
+    }
+    .lovestory_card{
+        margin: 0 auto 20px;
+    }
+    .lovestory_title{
+        font-size: 18px;
+        line-height: 20;
+        left: 5px;
+        top: -195px;
+        transform: none;
+    }
+}
