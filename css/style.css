@@ -24,7 +24,9 @@ a{
 }
 .main_logo {
   display: block;
-  margin: 0 auto 27px;
+  margin: 0 auto 15px;
+  width: 300px;
+  height: 100px;
 }
 .header_list {
   width: 675px;
@@ -310,15 +312,14 @@ a{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-
+} 
 .slick-dotted.slick-slider {
   margin-bottom: 60px;
 }
 .slider_wrapper{
   width: 1170px;
   height: 800px;
+
 }
 .portfolio_card_img{
   object-fit: cover;
@@ -394,7 +395,7 @@ a{
   color: #4E5555;
   text-align: center;
 }
-.lovestory_wrapper{
+.disable{
   margin-top: 75px;
   display: none;
 }
