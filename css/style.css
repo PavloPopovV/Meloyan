@@ -38,7 +38,7 @@ a{
   font-family: 'TT Drugs';
   position: relative;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 18px;
   color: #4E5555;
@@ -60,7 +60,7 @@ a{
   border: 0.6px solid #4E5555;
   border-radius: 50%;
   top: 5px;
-  left: -33px;
+  left: -42px;
 }
 .example:first-child::before{
   display: none;
@@ -159,7 +159,7 @@ a{
   border: 0.6px solid #4E5555;
   border-radius: 50%;
   top: 19px;
-  left: -22px;
+  left: -28px;
 }
 .footer_contact {
   width: 245px;
@@ -340,32 +340,7 @@ a{
   top: 0;
   right: 0;
 }
-.slick-next,
-.slick-prev{
-  position: absolute;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid #000000;
-  background: none;
-  font-size: 0;
-  cursor: pointer;
-  z-index: 5;
-}
-.slick-next{
-  background-image: url(../images/arrow.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  bottom: 375px;
-  right: 20px;
-}
-.slick-prev{
-  background-image: url(../images/arrow_prev.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  top: 390px;
-  left: 20px;
-}
+
 .story_box_gallery{
   display: none;
 }
@@ -385,6 +360,9 @@ a{
   text-transform: uppercase;
   color: #4E5555;
 }
+.story_card_portfolio:hover .story_portfolio_title{
+  color: #A0A0A0;
+}
 .story_portfolio_title{
   margin-top: 15px;
   font-family: 'Playfair Display';
@@ -394,6 +372,10 @@ a{
   text-transform: uppercase;
   color: #4E5555;
   text-align: center;
+  cursor: pointer;
+}
+.story_portfolio_title:hover{
+ 
 }
 .disable{
   margin-top: 75px;
