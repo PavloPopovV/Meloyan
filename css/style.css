@@ -38,7 +38,7 @@ a{
   font-family: 'TT Drugs';
   position: relative;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 14px;
   line-height: 18px;
   color: #4E5555;
@@ -272,6 +272,9 @@ a{
   padding-top: 75px;
   display: none;
 }
+.location_icon{
+  padding-right: 5px;
+}
 .portfolio_bg_card{
   width: 100%;
   height: 818px;
@@ -301,30 +304,11 @@ a{
   color: #C04500;
   text-align: center;
 }
-.portfolio_work_location::before {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 8px;
-  top: 3px;
-  left: 115px;
-  background-image: url(../images/location_icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} 
-.slick-dotted.slick-slider {
-  margin-bottom: 60px;
-}
-.slider_wrapper{
-  width: 1170px;
-  height: 800px;
-
-}
 .portfolio_card_img{
   object-fit: cover;
   width: 1170px;
   height: 778px;
+  margin-bottom: 20px;
 }
 .portfolio_last_two{
   width: 570px;
@@ -340,10 +324,6 @@ a{
   top: 0;
   right: 0;
 }
-
-.story_box_gallery{
-  display: none;
-}
 .portfolio_list{
   width: 800px;
   height: 35px;
@@ -353,6 +333,7 @@ a{
   border-top: 1px solid #A0A0A0;
 }
 .list_name{
+  padding-top: 15px;
   font-family: 'TT Drugs';
   font-weight: 600;
   font-size: 10px;
@@ -374,14 +355,12 @@ a{
   text-align: center;
   cursor: pointer;
 }
-.story_portfolio_title:hover{
- 
-}
 .disable{
   margin-top: 75px;
   display: none;
 }
 .lovestory_title{
+  height: 25px;
   position: absolute;
   left: -120px;
   top: 55px;

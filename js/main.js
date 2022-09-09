@@ -1,14 +1,3 @@
-
-$(document).ready(function () {
-    $('.slider_wrapper').slick({
-        arrows:false,
-        infinity:true,
-        autoplay:true,
-        autoplaySpeed:2000,
-        variableWidth: true,
-    });
-});
-
 $(document).ready(function () {
     var $list = $(".wrapper .mix").hide(),
         $content;

@@ -117,17 +117,16 @@
         font-size: 18px;
         line-height: 24px;
     }
-    .slider_wrapper{
-        display: none;
-    }
-    .story_box_gallery{
-        display: block;
-      }
     .portfolio_card_img,
     .portfolio_last_two{
+        object-fit: contain;
         width: 360px;
-        height: 505px;
-        margin-bottom: 10px;
+        height: 240px;
+        margin-bottom: 0px;
+    }
+    .portfolio_last_two{
+        width: 160px;
+        height: 240px;
     }
     .portfolio_img_card{
         width: 360px;
@@ -137,8 +136,8 @@
     .portfolio_img_card:last-child{
         margin-bottom: 30px;
     }
-    .portfolio_last_two:last-child{
-        position: static;
+    .portfolio_last_two:first-child{
+        margin-right: 40px;
     }
     .lovestory_wrapper{
         margin-top: 50px;
@@ -152,5 +151,8 @@
         left: 5px;
         top: -195px;
         transform: none;
+    }
+    .story_location{
+        margin-bottom: 10px;
     }
 }
