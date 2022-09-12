@@ -25,8 +25,9 @@ a{
 .main_logo {
   display: block;
   margin: 0 auto 15px;
-  width: 300px;
-  height: 100px;
+  object-fit: cover;
+  width: 235px;
+  height: 80px;
 }
 .header_list {
   width: 675px;
