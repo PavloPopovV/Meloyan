@@ -122,23 +122,25 @@
         object-fit: contain;
         width: 360px;
         height: 240px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
+    }
+    .portfolio_card_img{
+        margin-bottom: 20px;
     }
     .portfolio_last_two{
-        width: 160px;
-        height: 240px;
+        
+        height: 536px;
     }
     .portfolio_img_card{
-        width: 360px;
         display: flex;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
+        width: 360px;
+        margin-bottom: 0;
     }
     .portfolio_img_card:last-child{
         margin-bottom: 30px;
     }
-    .portfolio_last_two:first-child{
-        margin-right: 40px;
-    }
+    
     .lovestory_wrapper{
         margin-top: 50px;
     }

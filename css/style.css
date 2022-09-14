@@ -28,6 +28,7 @@ a{
   object-fit: cover;
   width: 235px;
   height: 80px;
+  opacity: .6;
 }
 .header_list {
   width: 675px;
@@ -317,14 +318,13 @@ a{
   object-fit: cover;
 }
 .portfolio_img_card{
+  display: flex;
+  justify-content: space-between;
   position: relative;
   width: 1170px;
+  margin-bottom: 25px;
 }
-.portfolio_last_two:last-child{
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 .portfolio_list{
   width: 800px;
   height: 35px;
