@@ -313,16 +313,15 @@ a{
   margin-bottom: 20px;
 }
 .portfolio_last_two{
-  width: 570px;
-  height: 778px;
+  display: block;
+  width: 100%;
   object-fit: cover;
+  margin-bottom: 25px;
 }
 .portfolio_img_card{
-  display: flex;
-  justify-content: space-between;
+ 
   position: relative;
-  width: 1170px;
-  margin-bottom: 25px;
+  width: 100%;
 }
 
 .portfolio_list{
