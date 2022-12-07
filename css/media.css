@@ -5,8 +5,11 @@
     a{
         text-decoration: none;
     }
+    .header_top{
+        max-width: 360px;
+    }
     .header_list{
-        width: 325px;
+        max-width: 325px;
         flex-wrap: wrap;
     }
     .example{

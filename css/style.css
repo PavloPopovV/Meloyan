@@ -18,9 +18,17 @@ a{
   width: 1170px;
   margin: 0 auto;
 }
+.header{
+  padding-top: 150px;
+}
 .header_top {
-  padding-top: 25px;
-  
+  max-width: 1170px;
+  width: 100%;
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
 }
 .main_logo {
   display: block;
@@ -362,7 +370,7 @@ a{
 .lovestory_title{
   height: 25px;
   position: absolute;
-  left: -120px;
+  left: -150px;
   top: 55px;
   font-family: 'TT Drugs';
   font-weight: 400;
