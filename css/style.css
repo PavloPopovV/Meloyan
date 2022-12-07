@@ -380,3 +380,22 @@ a{
   color: #C7C7C7;
   transform: rotate(-90deg)
 }
+#toTop {
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  background-image: url(../images/to-top.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position:fixed;
+  bottom:10px; 
+  right:25px;
+  cursor:pointer; 
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+#toTop.show {
+  opacity: 1;
+  visibility: visible;
+}

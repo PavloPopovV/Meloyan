@@ -1,3 +1,20 @@
+$(function () {
+    var btn = $('#toTop');
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+});
+
 $(document).ready(function () {
     var $list = $(".wrapper .mix").hide(),
         $content;
@@ -17,6 +34,8 @@ $(document).ready(function () {
         window.scrollBy(0, -9999);
     });
 });
+
+
 
 $(function () {
     $('.story_card').click(function () {
@@ -45,7 +64,7 @@ $(function () {
     $('.business_card').click(function () {
         $('body,html').animate({ scrollTop: 0 }, 100);
     })
-    
+
 });
 
 $(function () {
@@ -180,10 +199,6 @@ $(function () {
     })
 });
 
-$(function () {
-    
-   
-});
 
 
 
